@@ -8,7 +8,7 @@ Consider the following schema for a Library Database: BOOK(Book_id, Title, Publi
 4.Partition the BOOK table based on year of publication. Demonstrate its working with a simple query.
 5.Create a view of all books and its number of copies that are currently available in the Library.
 
-###################################################################################################################################
+################################################################################################################
 
 LAB PROGRAM - 02
 Consider the following schema for Order Database: SALESMAN(Salesman_id, Name, City, Commission) CUSTOMER(Customer_id, Cust_Name, City, Grade, Salesman_id) ORDERS(Ord_No, Purchase_Amt, Ord_Date, Customer_id, Salesman_id) Write SQL queries to
@@ -19,7 +19,7 @@ Consider the following schema for Order Database: SALESMAN(Salesman_id, Name, Ci
 4.Create a view that finds the salesman who has the customer with the highest order of a day.
 5.Demonstrate the DELETE operation by removing salesman with id 1000. All his orders must also be deleted.
 
-#################################################################################################################################
+##############################################################################################################
 
 LAB PROGRAM - 03
 Consider the schema for Movie Database: ACTOR(Act_id, Act_Name, Act_Gender) DIRECTOR(Dir_id, Dir_Name, Dir_Phone) MOVIES(Mov_id, Mov_Title, Mov_Year, Mov_Lang, Dir_id) MOVIE_CAST(Act_id, Mov_id, Role) RATING(Mov_id, Rev_Stars) Write SQL queries to
